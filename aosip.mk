@@ -22,6 +22,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit some common AOSiP stuff
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
+# Inherit Pixelstyle
+$(call inherit-product-if-exists, vendor/pixelstyle/config.mk)
+
 # Inherit from X00T device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
