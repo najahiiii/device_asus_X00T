@@ -468,8 +468,4 @@
          and one pSIM) -->
     <integer name="config_num_physical_slots">2</integer>
 
-    <!-- Overhauled ZenfoneParts by Fikri -->
-    <string name="config_alternativeDeviceKeyHandlerLib" translatable="false">/system/priv-app/ZenfoneParts/ZenfoneParts.apk</string>
-    <string name="config_alternativeDeviceKeyHandlerClass" translatable="false">com.asus.zenparts.KeyHandler</string>
-
 </resources>
