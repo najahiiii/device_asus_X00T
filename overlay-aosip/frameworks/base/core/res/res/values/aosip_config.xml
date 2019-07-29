@@ -17,4 +17,11 @@
 <resources>
     <!-- Button backlight -->
     <integer name="config_buttonBrightnessSettingDefault">0</integer>
+
+    <!-- The second metric to be used for antenna bar display for LTE
+         The metrics to be used for Antenna display is based on RSRP and either one of the
+           0. RSSNR
+           1. RSRQ
+    -->
+    <integer name="config_LTE_antenna_bar_quantity_metric">1</integer>
 </resources>
