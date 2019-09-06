@@ -1,0 +1,1 @@
+add_lunch_combo aquarios_X00T-userdebug
